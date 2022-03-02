@@ -1,0 +1,355 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Staatliches&display=swap');
+
+*{
+
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', cursive;
+
+
+}
+html{
+
+
+    scroll-behavior: smooth;
+}
+ul,li,a{
+
+    list-style: none;
+    text-decoration: none;
+}
+header{
+
+   
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+
+    width: 100%;
+    height: 90%;
+}
+
+.rec{
+
+    width: 150px;
+    
+    background: black;
+    position: absolute;
+    top: 0%;
+    margin-left: 100px;
+}
+
+.rec img{
+
+    background-color: aliceblue;
+}
+header .menu .menu-text {
+
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+ 
+    display: flex;
+    align-items: center;
+   
+    
+
+}
+header .menu .menu-text ul{
+
+  
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+header .menu .menu-text ul a{
+
+    
+    margin: 20px 50px ;
+    font-size: 30px;
+    
+
+}
+
+.menu p{
+
+    font-size: 60px;
+    top: 0;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 200px 0 0 700px;
+
+}
+
+
+
+section {
+
+   
+}
+
+section .recwhite{
+
+    width: 100%;
+    height: 100%;
+  
+}
+
+section .recwhite .textrow2 {
+
+    display: flex;
+    text-align: center;
+    margin-left: 500px;
+    
+    
+}
+
+section .recwhite .textrow2 ul {
+
+    
+    margin: 50px;
+    
+}
+
+section .recwhite .textrow2 ul li:nth-child(1) {
+
+   font-size: 40px;
+}
+section .recblack{
+
+    width: 100%;
+    height: 750px;
+    background-color: black;
+  
+}
+section .recblack ul {
+
+    padding: 100px 0px 0px 100px;
+    
+ 
+}
+
+section .recblack ul li{
+
+    color: white;
+  
+    
+
+}
+section .recblack ul li:nth-child(1){
+
+    font-size: 60px;
+
+}
+section .recblack ul li:nth-child(2){
+
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+section .recblack img{
+
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    right: 0;
+    margin: 20px 100px 0 0;
+    transform: translateY(-60%);
+}
+
+.imgrow2{
+
+   margin: 0 0 0 900px;
+    height: 0;
+    transform: translateY(-60%);
+    background-color: black;
+}
+
+.imgrow2 ul{
+
+    position: absolute;
+
+    margin: 0 0 0 200px;
+    transform: translateY(-250%);
+}
+
+.imgrow2 ul li:nth-child(1){
+
+    margin: 0 0 0 450px;
+    font-size: 50px;
+    color: aliceblue;
+}
+.imgrow2 ul li:nth-child(2){
+
+    text-align: right;
+    justify-content: end;
+    font-size: 30px;
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+.imgrow3{
+
+  
+    height: 0;
+    transform: translateY(-60%);
+    background-color: black;
+}
+
+.imgrow3 ul{
+
+    position: absolute;
+
+    margin: 0 0 0 200px;
+    transform: translateY(-250%);
+}
+
+.imgrow3 ul li:nth-child(1){
+
+    
+    font-size: 50px;
+    color: aliceblue;
+}
+.imgrow3 ul li:nth-child(2){
+
+    font-size: 30px;
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+.recEx0{
+
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 90px;
+    padding: 20px;
+    border: 10px solid rgb(255, 255, 255);
+    margin: 0 210px 0 200px;
+    transform: translateY(-350%);
+    position: absolute;
+    
+
+}
+.recEx0 li{
+
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+.recEx{
+
+    top: 0;
+    width: 300px;
+    height: 90px;
+    padding: 20px;
+    border: 10px solid rgb(255, 255, 255);
+    margin: 0 0 0 200px;
+    transform: translateY(-350%);
+    
+
+}
+.recEx li{
+
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+footer{
+
+    background-color:black ;
+   
+   }
+.footer{
+ 
+     justify-content: space-between;
+     display: flex;
+     padding : 5% 10%;
+     background-color: black;
+     color: aliceblue;
+     height: 500px;
+     font-size: 2em;
+     align-items: center;
+ }
+ 
+ .black{
+
+   
+    opacity: 0;
+ }
+ .footernav {
+ 
+    
+ }
+ 
+ .footernav ul li a {
+ 
+   
+    color: aliceblue;
+}
+ .footernav2{
+ 
+     padding-top: 30px;
+     
+ 
+ }
+ .footernav2 ul li {
+ 
+     color: rgb(189, 189, 189);
+      
+  
+  }
+ .footernav2 ul li a{
+ 
+    color: rgb(189, 189, 189);
+     font-size: 0.5em;
+ 
+ }
+ .footernav2icon i{
+ 
+     padding: 10px;
+     
+ }
+ .iconcard i{
+ 
+     cursor: pointer;
+     color: rgb(255, 255, 255);
+     
+ }
+ 
+ .owner{
+ 
+ 
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    transform: translateY(-100%);
+ }
+
+ .owner p{
+ 
+ 
+  
+    color: rgb(255, 255, 255);
+
+
+ }
